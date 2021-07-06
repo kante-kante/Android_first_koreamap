@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.mjc.testmap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".splash"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".mapViewtest1" />
+        <activity android:name=".explain_udo" />
+        <activity android:name=".explain_eco" />
+        <activity android:name=".explain_hueree" />
+        <activity android:name=".explain_sungsan" />
+        <activity android:name=".explain_dongbaek" />
+        <activity android:name=".explain_bsgj" />
+        <activity android:name=".explain_hw" />
+        <activity android:name=".explain_homi" />
+        <activity android:name=".explain_bstower" />
+        <activity android:name=".explain_suwon" />
+        <activity android:name=".explain_heyree" />
+        <activity android:name=".explain_goyo" />
+        <activity android:name=".explain_minsok" />
+        <activity android:name=".explain_ys" />
+        <activity android:name=".explain_jjhk" />
+        <activity android:name=".explain_haenam" />
+        <activity android:name=".explain_scman" />
+        <activity android:name=".explain_soyang" />
+        <activity android:name=".explain_abai" />
+        <activity android:name=".explain_jdj" />
+        <activity android:name=".explain_chiak" />
+        <activity android:name=".explain_nami" />
+        <activity android:name=".explain_buyeo" />
+        <activity android:name=".explain_ghpark" />
+        <activity android:name=".explain_gosu" />
+        <activity android:name=".explain_md" />
+        <activity android:name=".explain_jongno" />
+        <activity android:name=".explain_bc" />
+        <activity android:name=".explain_insa" />
+        <activity android:name=".explain_namsan" />
+        <activity android:name=".jeju" />
+        <activity android:name=".jeonla" />
+        <activity android:name=".gyeongsang" />
+        <activity android:name=".chungcheong" />
+        <activity android:name=".kangwon" />
+        <activity android:name=".gyeongin" />
+        <activity android:name=".seoul" />
+        <activity android:name=".MainActivity">
+          <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="4ee294788c7fcb5948d541ebc8828c05" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explain_bc">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/imgbc"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/hk"
+                android:text="서울에서 고즈넉함을 느끼고 싶다면, 북촌 한옥마을."
+                android:textColor="#22C1F1" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/titlens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="북촌 한옥마을"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위치: 서울 종로구 계동길37" />
+
+            <TextView
+                android:fontFamily="@font/nexonnormal"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="경복궁과 창덕궁, 금원(비원) 사이 북악산 기슭에 있는 한옥 보존지구로 청계천과 종로의 윗동네라는 뜻으로 북촌이라고도 한다.\n\n
+북촌은 고관대작들과 왕족, 사대부들이 모여서 거주해온 고급 살림집터로 한옥은 모두 조선시대의 기와집이다.\n\n
+원래 이 지역에는 솟을대문이 있는 집 몇 채와 30여 호의 한옥만이 있었으나 일제강점기 말부터 한옥이 많이 지어졌고, 1992년 가회동한옥보존지구에서 해제되고, 1994년 고도제한이 풀리면서 일반 건물들이 많이 들어섰다. 총 2,297동의 건물이 있는데, 이 가운데 1,408동이 한옥이고 나머지는 일반 건물이다.\n\n
+북촌 거리에는 북촌양반생활문화전시관과 북촌 한옥촌 상징조형물을 설치되어 있고, 옛 선조의 생활모습을 구경할 수 있는 가회동 전통 마을축제가 열린다. 주변에 경복궁 창덕궁 덕수궁 금원 삼청공원 국립중앙박물관 등의 관광지가 있다. " />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 코스: "
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="북촌 한옥마을 > 청원산방 > 한기미술관 > 북악스카이 팔각정"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 맛집: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="다운타우너(햄버거),삼청동수제비(수제비)\n
+수와래(양식),블루보틀(카페)" />
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="추천도: "
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/bcfr"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 맛집 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/more"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 여행정보 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

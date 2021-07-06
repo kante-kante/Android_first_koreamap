@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explain_hw">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/imgnstower"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/haewoondae"
+                android:text="여름 대표 해수욕장, 해운대- 광안리"
+                android:textColor="#E69D65" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/titlens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="해운대 광안리"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위치: 부산 해운대구 달맞이길62번길 47" />
+
+            <TextView
+                android:fontFamily="@font/nexonnormal"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="해운대, 광안리 해수욕장 등 부산의 대표 해수욕장에는 매년 수백만 명이 몰리는 만큼 뜨거운 열정이 가득하다. \n\n
+무엇보다 부산의 밤바다는 낮보다 더 뜨겁고 짜릿하다. 화려한 광안대교의 조명과 밤하늘을 수놓는 다양한 불빛, 더위가 한풀 꺾인 밤바다의 시원함을 만끽하는 사람들의 웃음소리 등 부산의 밤바다에는 또 다른 매력이 넘쳐난다." />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 코스: "
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="자갈치시장 > BIFF광장 > 광안리해수욕장 > 해운대해수욕장"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 맛집: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="해운대소문난암소갈비(고깃집), 해운대가야밀면(국수), \n상국이네(분식), 밀양순대국밥(국밥)" />
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="추천도: "
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/hwfr"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 맛집 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/more"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 여행정보 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

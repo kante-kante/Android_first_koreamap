@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explain_scman">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/imgnstower"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/scman"
+                android:text="자연 그대로를 보존하는 곳, 순천만"
+                android:textColor="#E69D65" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/titlens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="순천만"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위치: 전라남도 순천시 순천만길" />
+
+            <TextView
+                android:fontFamily="@font/nexonnormal"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="순천시 교량동과 대대동, 해룡면의 중흥리, 해창리 선학리 등에 걸쳐 있는 순천만 갈대밭의 총 면적은 약 15만평에 달한다. \n\n
+순천 시내를 관통하는 동천과 순천시 상사면에서 흘러 온 이사천의 합수 지점부터 하구에 이르는 3㎞ 쯤의 물길양쪽이 죄다 갈대밭으로 뒤덮혀 있다. \n그것도 드문드문 떨어져 있거나 성기게 군락을 이룬 여느 갈대밭과는 달리, 사람의 키보다 훨씬 더 웃자란 갈대들이 빈틈없이 밀생(密生)한 갈대밭이다." />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 코스: "
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="낙악온천 > 순천만 용산전망대 > 순천만자연생태공원  "
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 맛집: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="순천만일번가(해물요리), 참조은시골집(한식),\n\n도원경(한정식), 일품(한식)" />
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="추천도: "
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/scfr"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 맛집 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/more"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 여행정보 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

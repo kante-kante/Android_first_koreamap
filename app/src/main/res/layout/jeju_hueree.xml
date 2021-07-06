@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explain_hueree">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/imgnstower"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/hueree"
+                android:text="제주의 꽃내음을 느끼다, 휴애리 공원"
+                android:textColor="#E69D65" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/titlens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="제주 휴애리 공원"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위치: 제주 서귀포시 남원읍 신례동로 256" />
+
+            <TextView
+                android:fontFamily="@font/nexonnormal"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="휴애리는 서귀포시 남원읍 신례리 한라산 자락에 있는 자연생활 체험 공원이다. \n\n
+휴애리 대표 축제로는 2월 ~ 3월 제주에서 봄을 가장 먼저 알리는 매화축제를 시작으로 4월 ~ 7월까지 공원 곳곳에서 수국과 산수국을 함께 볼 수 있는 수국축제 \n\n
+9월 ~ 11월 까지 가을 제주를 찾는 사람들에게 핑크핑크한 제주를 선물하는 핑크뮬리축제 11월 ~ 1월 까지 겨울 제주를 대표하는 동백축제가 열리는 등 다양한 볼거리를 제공해 제주 여행시 꼭 방문해야하는 핫플레이스 관광지로 자리매김해 가고 있다." />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 코스: "
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="너븐숭이 4.3 기념관 > 갯깍주상절리 > 노리매공원 > 휴애리공원"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 맛집: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="마리조아(고깃집), 윈앤온리(카페),\n 오는정김밥(김밥), 제주미향(해물)" />
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="추천도: "
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/hufr"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 맛집 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/more"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 여행정보 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

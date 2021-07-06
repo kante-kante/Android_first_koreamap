@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explain_jdj">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/imgnstower"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/jdj"
+                android:text="새해를 맞이하러 가장 많이 가는 곳, 정동진"
+                android:textColor="#E69D65" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/titlejdj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:text="강릉 정동진"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위치: 강원 강릉시 강동면" />
+
+            <TextView
+                android:fontFamily="@font/nexonnormal"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="희망찬 새해 아침을 맞이하는 일출의 고장 강릉시에서는 정동진을 찾는 해돋이 관광객과 시민들에게 새해에도 변함없는 성원으로 희망이 넘쳐나는 소원의 일출을 선물하고 있다.\n\n
+2018년 12월 31일 동해안 최고의 해넘이, 해돋이 명소인 정동진에서 새해 기원과 새 출발을 다짐하는 행사 '정동진 해맞이 축제'가 진행된다" />
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 코스: "
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="통일공원 > 하슬라아트월드 > 정동진해변 > 모래시계공원"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="추천 맛집: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="덕이식당(한식), 썬한식(한식), 바다마을횟집(생선회)" />
+            <TextView
+                android:fontFamily="@font/tmonmonsori"
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="추천도: "
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/jdjfr"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 맛집 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+            <Button
+                android:fontFamily="@font/nexonbold"
+                android:id="@+id/more"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="더 많은 여행정보 보러가기(클릭)"
+                android:textColor="#E11A6DC5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
